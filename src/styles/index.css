@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: var(--avr-cream);
+  color: var(--avr-ink);
+}
+
+:root {
+  --avr-ink: #111827;
+  --avr-cream: #faf5e7;
+  --avr-cream-2: #fffaf0;
+  --avr-green: #14532d;
+  --avr-green-2: #0f766e;
+  --avr-border: rgba(17, 24, 39, 0.10);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.avr-app {
+  min-height: 100vh;
+}
+
+.avr-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px 60px;
+}
+
+.avr-section {
+  margin-top: 34px;
+}
+
+.avr-shop-actions {
+  margin: 18px 0 8px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.avr-section-header {
+  margin-bottom: 12px;
+}
+
+.avr-section-title {
+  margin: 0 0 6px;
+  font-size: 26px;
+}
+
+.avr-section-lead {
+  margin: 0;
+  color: rgba(17, 24, 39, 0.7);
+  line-height: 1.6;
+}
+
+.avr-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 16px;
+  border-radius: 12px;
+  font-weight: 700;
+  text-decoration: none;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.avr-button-primary {
+  background: var(--avr-green-2);
+  color: white;
+  box-shadow: 0 10px 25px rgba(15, 118, 110, 0.25);
+}
+
+.avr-button-secondary {
+  background: rgba(20, 83, 45, 0.08);
+  border-color: rgba(20, 83, 45, 0.18);
+  color: var(--avr-green);
+}
+
+.avr-button-primary:hover {
+  filter: brightness(0.95);
+}
+
+.avr-nav {
+  display: flex;
+  gap: 14px;
+  margin-left: 24px;
+}
+
+.avr-nav-link {
+  color: rgba(17, 24, 39, 0.75);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 8px 10px;
+  border-radius: 10px;
+}
+
+.avr-nav-link:hover {
+  background: rgba(17, 24, 39, 0.06);
+}
+
+.avr-split {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 14px;
+  align-items: start;
+}
+
+.avr-split-image {
+  width: 100%;
+  height: 360px;
+  object-fit: cover;
+  border-radius: 18px;
+  border: 1px solid rgba(17, 24, 39, 0.08);
+  box-shadow: 0 10px 25px rgba(17, 24, 39, 0.06);
+}
+
+.avr-split-content {
+  display: grid;
+  gap: 14px;
+}
+
+@media (max-width: 900px) {
+  .avr-nav {
+    display: none;
+  }
+  .avr-split {
+    grid-template-columns: 1fr;
+  }
+  .avr-split-image {
+    height: 280px;
+  }
+}

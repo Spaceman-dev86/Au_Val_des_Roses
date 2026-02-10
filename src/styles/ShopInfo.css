@@ -1,0 +1,74 @@
+.avr-info-grid {
+	display: grid;
+	grid-template-columns: repeat(4, minmax(0, 1fr));
+	gap: 14px;
+	margin-top: 18px;
+}
+
+.avr-card {
+	background: white;
+	border: 1px solid rgba(17, 24, 39, 0.08);
+	border-radius: 16px;
+	padding: 16px;
+	box-shadow: 0 10px 25px rgba(17, 24, 39, 0.06);
+}
+
+.avr-card-title {
+	font-weight: 700;
+	margin-bottom: 8px;
+}
+
+.avr-card-text {
+	color: rgba(17, 24, 39, 0.78);
+	line-height: 1.5;
+}
+
+.avr-link {
+	color: #0f766e;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+.avr-link:hover {
+	text-decoration: underline;
+}
+
+.avr-services {
+	margin-top: 18px;
+}
+
+.avr-services-title {
+	font-weight: 700;
+	margin-bottom: 8px;
+}
+
+.avr-services-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	gap: 10px;
+	flex-wrap: wrap;
+}
+
+.avr-services-item {
+	background: rgba(15, 118, 110, 0.08);
+	border: 1px solid rgba(15, 118, 110, 0.18);
+	color: #0f766e;
+	padding: 8px 10px;
+	border-radius: 999px;
+	font-weight: 600;
+	font-size: 13px;
+}
+
+@media (max-width: 900px) {
+	.avr-info-grid {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
+}
+
+@media (max-width: 520px) {
+	.avr-info-grid {
+		grid-template-columns: 1fr;
+	}
+}

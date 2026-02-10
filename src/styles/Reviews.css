@@ -1,0 +1,41 @@
+.avr-reviews-grid {
+	display: grid;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+	gap: 14px;
+	margin-top: 18px;
+}
+
+.avr-review-header {
+	display: flex;
+	justify-content: space-between;
+	gap: 10px;
+	align-items: baseline;
+	margin-bottom: 8px;
+}
+
+.avr-review-author {
+	font-weight: 800;
+}
+
+.avr-review-rating {
+	font-weight: 800;
+	color: #0f766e;
+}
+
+.avr-review-meta {
+	color: rgba(17, 24, 39, 0.6);
+	font-size: 13px;
+	margin-bottom: 10px;
+}
+
+.avr-review-text {
+	margin: 0;
+	line-height: 1.6;
+	color: rgba(17, 24, 39, 0.78);
+}
+
+@media (max-width: 950px) {
+	.avr-reviews-grid {
+		grid-template-columns: 1fr;
+	}
+}

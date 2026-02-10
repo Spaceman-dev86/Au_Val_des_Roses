@@ -1,0 +1,26 @@
+.avr-hours-grid {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	gap: 12px;
+	margin-top: 18px;
+}
+
+.avr-hours-row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.avr-hours-day {
+	font-weight: 700;
+}
+
+.avr-hours-value {
+	color: rgba(17, 24, 39, 0.78);
+}
+
+@media (max-width: 720px) {
+	.avr-hours-grid {
+		grid-template-columns: 1fr;
+	}
+}

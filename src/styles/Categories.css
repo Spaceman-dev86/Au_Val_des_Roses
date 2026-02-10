@@ -1,0 +1,26 @@
+.lmj-categories {
+  text-align: left;
+  padding: 18px 32px 0;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.lmj-categories-select {
+  margin-right: 15px;
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: 1px solid rgba(17, 24, 39, 0.12);
+  background: white;
+  font-weight: 700;
+}
+
+.lmj-categories button {
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: 1px solid rgba(17, 24, 39, 0.12);
+  background: white;
+  font-weight: 700;
+  cursor: pointer;
+}

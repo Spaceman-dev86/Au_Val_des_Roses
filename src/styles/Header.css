@@ -1,0 +1,88 @@
+.avr-header {
+	position: sticky;
+	top: 0;
+	z-index: 30;
+	background: var(--avr-green);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+}
+
+.avr-header-inner {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 14px 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 14px;
+}
+
+.avr-brand {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	text-decoration: none;
+	color: var(--avr-cream);
+}
+
+.avr-brand-logo {
+	width: 80px;
+	height: 80px;
+	border-radius: 12px;
+	box-shadow: none;
+}
+
+.avr-brand-name {
+	font-family: 'Playfair Display', serif;
+	font-weight: 800;
+	letter-spacing: 0.3px;
+	font-size: 30px;
+	line-height: 1;
+}
+
+.avr-header-nav {
+	display: flex;
+	gap: 10px;
+}
+
+.avr-header-link {
+	text-decoration: none;
+	font-weight: 800;
+	font-size: 14px;
+	padding: 10px 12px;
+	border-radius: 999px;
+	color: rgba(250, 245, 231, 0.92);
+	background: transparent;
+}
+
+.avr-header-link.active {
+	background: rgba(255, 255, 255, 0.12);
+	border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.avr-cart-button {
+	border: 1px solid rgba(255, 255, 255, 0.22);
+	background: rgba(255, 255, 255, 0.12);
+	color: var(--avr-cream);
+	font-weight: 900;
+	border-radius: 999px;
+	padding: 10px 12px;
+	cursor: pointer;
+	display: inline-flex;
+	gap: 8px;
+	align-items: center;
+}
+
+.avr-cart-badge {
+	background: var(--avr-cream);
+	color: var(--avr-green);
+	border-radius: 999px;
+	padding: 2px 8px;
+	font-size: 12px;
+	font-weight: 900;
+}
+
+@media (max-width: 700px) {
+	.avr-header-nav {
+		display: none;
+	}
+}
