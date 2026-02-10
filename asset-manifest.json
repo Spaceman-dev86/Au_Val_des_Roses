@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/Au_Val_des_Roses/static/css/main.7a9315f3.css",
+    "main.js": "/Au_Val_des_Roses/static/js/main.217f8db0.js",
+    "static/js/453.6e4185b9.chunk.js": "/Au_Val_des_Roses/static/js/453.6e4185b9.chunk.js",
+    "static/media/grand.jpg": "/Au_Val_des_Roses/static/media/grand.856fa342572c48df28a3.jpg",
+    "static/media/olivier.jpg": "/Au_Val_des_Roses/static/media/olivier.b2908b40d9fb7f86626b.jpg",
+    "static/media/logo.png": "/Au_Val_des_Roses/static/media/logo.96aae977070847761673.png",
+    "static/media/monstera.jpg": "/Au_Val_des_Roses/static/media/monstera.6257bc6b1e699fa6dde1.jpg",
+    "static/media/bouquet.jpg": "/Au_Val_des_Roses/static/media/bouquet.fbe2a27d782abe6b86d0.jpg",
+    "static/media/dame.avif": "/Au_Val_des_Roses/static/media/dame.5a4be6bdc6830dfdf40e.avif",
+    "static/media/basil.jpg": "/Au_Val_des_Roses/static/media/basil.be00474e950eb5af0054.jpg",
+    "static/media/cactus.jpg": "/Au_Val_des_Roses/static/media/cactus.a71c2062a926cb3d5db8.jpg",
+    "static/media/pothos.jpg": "/Au_Val_des_Roses/static/media/pothos.d72dc0ac2f240d84c9d7.jpg",
+    "static/media/lyrata.jpg": "/Au_Val_des_Roses/static/media/lyrata.2e915120c952bdb7066c.jpg",
+    "static/media/mint.jpg": "/Au_Val_des_Roses/static/media/mint.b83a3d2e0c1c1cda808a.jpg",
+    "static/media/calathea.jpg": "/Au_Val_des_Roses/static/media/calathea.455c33e2bd3e5509c907.jpg",
+    "static/media/blanc.jpg": "/Au_Val_des_Roses/static/media/blanc.ad9e99782e389fc0160c.jpg",
+    "static/media/rose.jpg": "/Au_Val_des_Roses/static/media/rose.1f73adb089d351916308.jpg",
+    "static/media/succulent.jpg": "/Au_Val_des_Roses/static/media/succulent.f4329849930298a9e46b.jpg",
+    "static/media/vitrine.jpg": "/Au_Val_des_Roses/static/media/vitrine.87fe4aaa393c06434fb6.jpg",
+    "static/media/sun.svg": "/Au_Val_des_Roses/static/media/sun.26fb5ace82c593ca64a695a4d42b0568.svg",
+    "static/media/water.svg": "/Au_Val_des_Roses/static/media/water.cceb486fe1f26063bde712aa9fd7ea1e.svg",
+    "index.html": "/Au_Val_des_Roses/index.html",
+    "main.7a9315f3.css.map": "/Au_Val_des_Roses/static/css/main.7a9315f3.css.map",
+    "main.217f8db0.js.map": "/Au_Val_des_Roses/static/js/main.217f8db0.js.map",
+    "453.6e4185b9.chunk.js.map": "/Au_Val_des_Roses/static/js/453.6e4185b9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7a9315f3.css",
+    "static/js/main.217f8db0.js"
+  ]
+}
