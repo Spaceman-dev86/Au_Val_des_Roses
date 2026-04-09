@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Au_Val_des_Roses/static/css/main.7a9315f3.css",
-    "main.js": "/Au_Val_des_Roses/static/js/main.217f8db0.js",
+    "main.js": "/Au_Val_des_Roses/static/js/main.2d80eec3.js",
     "static/js/453.6e4185b9.chunk.js": "/Au_Val_des_Roses/static/js/453.6e4185b9.chunk.js",
     "static/media/grand.jpg": "/Au_Val_des_Roses/static/media/grand.856fa342572c48df28a3.jpg",
     "static/media/olivier.jpg": "/Au_Val_des_Roses/static/media/olivier.b2908b40d9fb7f86626b.jpg",
@@ -23,11 +23,11 @@
     "static/media/water.svg": "/Au_Val_des_Roses/static/media/water.cceb486fe1f26063bde712aa9fd7ea1e.svg",
     "index.html": "/Au_Val_des_Roses/index.html",
     "main.7a9315f3.css.map": "/Au_Val_des_Roses/static/css/main.7a9315f3.css.map",
-    "main.217f8db0.js.map": "/Au_Val_des_Roses/static/js/main.217f8db0.js.map",
+    "main.2d80eec3.js.map": "/Au_Val_des_Roses/static/js/main.2d80eec3.js.map",
     "453.6e4185b9.chunk.js.map": "/Au_Val_des_Roses/static/js/453.6e4185b9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7a9315f3.css",
-    "static/js/main.217f8db0.js"
+    "static/js/main.2d80eec3.js"
   ]
 }
